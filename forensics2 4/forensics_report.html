@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Browser Forensics Report</title>
+<style>
+  :root{--bg:#0d1117;--bg2:#161b22;--bg3:#21262d;--border:#30363d;--text:#c9d1d9;--muted:#8b949e;--accent:#58a6ff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;padding:40px 32px}
+  h1{color:var(--accent);font-size:22px;margin-bottom:4px}
+  h2{color:var(--accent);font-size:14px;font-weight:500;margin:2rem 0 .5rem;text-transform:uppercase;letter-spacing:.05em}
+  .meta{color:var(--muted);font-size:13px;margin-bottom:2rem}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:2.5rem}
+  .stat{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px}
+  .stat-n{font-size:30px;font-weight:600;color:var(--accent)}
+  .stat-l{font-size:12px;color:var(--muted);margin-top:4px}
+  table{width:100%;border-collapse:collapse;background:var(--bg2);margin-bottom:.5rem;font-size:12px}
+  th{background:var(--bg3);color:var(--accent);padding:8px 10px;border:1px solid var(--border);text-align:left;font-weight:500}
+  td{padding:7px 10px;border:1px solid var(--border);color:var(--muted);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  tr:hover td{color:var(--text)}
+  .badge{display:inline-block;padding:1px 8px;border-radius:20px;font-size:11px}
+  .chrome{background:#1a3a5c;color:#58a6ff}
+  .firefox{background:#1a3a1a;color:#7ee787}
+  .edge{background:#2d1a5c;color:#a5a0e6}
+</style>
+</head>
+<body>
+
+<h1>Browser Forensics Report</h1>
+<p class="meta">Generated: 2026-04-24 10:46 · For educational and audit purposes only</p>
+
+<div class="stats">
+  <div class="stat"><div class="stat-n">0</div><div class="stat-l">History entries</div></div>
+  <div class="stat"><div class="stat-n">0</div><div class="stat-l">Cookies</div></div>
+  <div class="stat"><div class="stat-n">0</div><div class="stat-l">Bookmarks</div></div>
+  <div class="stat"><div class="stat-n">0</div><div class="stat-l">Autofill entries</div></div>
+</div>
+
+<h2>History — last 0 entries</h2>
+<table><tr><th>browser</th><th>time</th><th>title</th><th>url</th><th>visits</th></tr></table>
+
+<h2>Cookies metadata — 0 entries</h2>
+<table><tr><th>Browser</th><th>Domain</th><th>Name</th><th>HttpOnly</th><th>Secure</th><th>Expires</th></tr></table>
+
+<h2>Bookmarks — 0 entries</h2>
+<table><tr><th>browser</th><th>folder</th><th>title</th><th>url</th><th>added</th></tr></table>
+
+<h2>Autofill — 0 entries</h2>
+<table><tr><th>browser</th><th>field</th><th>value</th><th>uses</th><th>last</th></tr></table>
+
+</body></html>
