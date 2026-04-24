@@ -1,2 +1,1 @@
-# purple
-aitu hackathon 
+
